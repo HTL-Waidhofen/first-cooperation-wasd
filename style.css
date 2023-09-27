@@ -9,6 +9,7 @@ body{
 }
 
 table {
+
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
@@ -51,9 +52,11 @@ h1 {
 
 #informations {
     background-color: white;
-    padding: 10px;
+    padding: 200px;
+    padding-bottom: 300px;
+    padding-top: 200px;
     margin: 0 auto;
-    width: 80%;
+    width: 50%; 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
