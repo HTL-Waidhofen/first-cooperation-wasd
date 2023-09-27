@@ -22,11 +22,10 @@ th, td {
     text-align: left;
 }
 th {
-    background-color: #f2f2f2;
+    
 }
 header { 
     background-color: #333;
-    color: white;
     padding: 10px 0;
     text-align: center;
 }
@@ -37,7 +36,6 @@ nav {
 }
 
 nav a {
-    color: white;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -51,7 +49,7 @@ h1 {
 }
 
 #informations {
-    background-color: white;
+    
     padding: 200px;
     padding-bottom: 300px;
     padding-top: 200px;
@@ -59,4 +57,18 @@ h1 {
     width: 50%; 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#button {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+}
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.light-mode {
+    background-color: #f0f0f0;
+    color: black;
 }
