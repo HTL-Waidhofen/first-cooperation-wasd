@@ -5,6 +5,7 @@ table {
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
+    float: left;
 }
 
 th, td {
