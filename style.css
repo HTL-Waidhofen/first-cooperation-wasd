@@ -78,3 +78,22 @@ img{
     top: 80px;
     right: 10px;
 }
+
+.spin {
+    transform: translate(-50%, -50%);
+    animation: spin 2s linear infinite;
+}
+ 
+#patches{
+    top: 65%;
+    left: 30%;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
