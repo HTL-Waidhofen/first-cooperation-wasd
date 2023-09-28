@@ -88,7 +88,12 @@ img{
     top: 65%;
     left: 30%;
 }
-
+#babarana{
+    top: 400px;
+    right: 5px;
+    width: 100px;
+    height: 200px;
+}
 @keyframes spin {
     from {
         transform: translate(-50%, -50%) rotate(0deg);
